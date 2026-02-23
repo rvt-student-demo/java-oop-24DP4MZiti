@@ -3,7 +3,7 @@ package rvt;
 import java.util.Scanner;
 
 public class UserInterface {
-    
+
     public void start(){
         TodoList list = new TodoList();
         Scanner scanner = new Scanner(System.in);
@@ -15,7 +15,6 @@ public class UserInterface {
                 break;
             }
             else if (answer.equals("add")){
-                
                 System.out.print("To add? ");
                 String word = scanner.nextLine();
                 list.add(word);
